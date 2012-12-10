@@ -1,0 +1,150 @@
+/* @override http://l/codecanyon/grid/codes/grid.css */
+
+.grid {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.grid .clear {
+	clear: both;
+}
+
+.grid .search {
+	margin-bottom: 15px;
+	background: url(img/search.png) no-repeat left center;
+	padding-left: 20px;
+}
+
+.grid #search_keyword {
+	width: 150px;
+}
+
+.grid .search ul,
+.grid .search ul li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.grid .search ul li {
+	float: left;
+	padding-right: 5px;
+}
+
+.grid .clearSearch {
+	display: block;
+	height: 20px;
+	line-height: 20px;
+	font-size: 0.8em;
+}
+
+.grid td {
+	padding: 3px 5px;
+	border: 1px solid #bbb;
+}
+
+.grid .head {
+	color: #666;
+	background-color: #ddd;
+	font-weight: bold;
+}
+
+.grid .head a {
+	color: black;
+	text-decoration: underline;
+}
+
+.grid .head.sort_asc a {
+	background: url(img/up.png) no-repeat right center;
+	padding-right: 16px;
+}
+
+.grid .head.sort_asc a:hover {
+	background: #ddd url(img/down.png) no-repeat right center;
+}
+
+.grid .head.sort_desc a {
+	background: #ddd url(img/down.png) no-repeat right center;
+	padding-right: 16px;
+}
+
+.grid .head.sort_desc a:hover {
+	background: url(img/up.png) no-repeat right center;
+}
+
+.grid .row.zebra {
+	background-color: #efefef;
+}
+
+.grid .pagination {
+	margin-top: 15px;
+}
+
+.grid .pagination ul,
+.grid .pagination li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	height: 20px;
+	line-height: 20px;
+}
+
+.grid .pagination li {
+	float: left;
+	border-right: 1px solid #ccc;
+}
+
+.grid .pagination li.next,
+.grid .pagination li.selectLi {
+	border-right: none;
+}
+
+.grid .pagination li.selectLeft {
+	padding-left: 10px;
+	padding-right: 3px;
+}
+
+.grid .pagination li.selectLeft,
+.grid .pagination li.selectMid {
+	border-right: none;
+}
+
+.grid .pagination li.selectRight {
+	padding-left: 3px;
+	padding-right: 10px;
+}
+
+.grid .pagination li a,
+.grid .pagination li span {
+	display: block;
+	float: left;
+	padding: 0 5px;
+	height: 20px;
+	line-height: 20px;
+}
+
+.grid .pagination li a {
+	text-decoration: none;
+	color: #555;
+}
+
+.grid .pagination li a:hover {
+	background-color: #efefef;
+}
+
+.grid .pagination li .selected {
+	color: black;
+	background-color: #ccc;
+}
+
+.grid .pagination li.prev span,
+.grid .pagination li.next span {
+	color: #ddd;
+}
+
+
+	    /* grid content specific styles */
+		.cell.col_oturum, .cell.col_ip, .cell.col_zaman { font-size: 0.8em; }
+		.col_zaman { text-align: center; }
+		.cell.col_actions { font-size: 0.9em; }
+		.cell.col_actions a.del { color: red; }

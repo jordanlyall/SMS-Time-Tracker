@@ -1,0 +1,31 @@
+
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+
+
+body {
+
+}
+a {
+  color:#A3BAA6;
+  text-decoration: none;
+}
+a:hover {
+  color: #A3BAA6;
+  text-decoration: underline;
+}
+
+
+a:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+a:hover,
+a:active {
+  outline: 0;
+}
